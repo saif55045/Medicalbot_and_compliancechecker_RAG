@@ -1,0 +1,50 @@
+Description
+This project focuses on building a fully functional Retrieval Augmented Generation (RAG) system using LangChain
+and the free Gemini API. Students will design a dataset pipeline, embed documents, build retrievers, and create an
+interactive QA/chat interface. The project also requires deployment, evaluation, and documentation through a
+GitHub repository and a Medium-style article.
+
+
+Deliverables
+1. GitHub repository with full code and README instructions
+2. Deployed demo link (Streamlit or Gradio)
+3. Evaluation report with metrics and example outputs
+4. Medium blog post explaining dataset, model, and results
+Tools:
+You can get Gemini’s API free from Google AI Studio and you can make free accounts on vector db
+
+
+Task 1: Medical RAG QA System
+Problem:
+Develop a Retrieval-Augmented Generation (RAG) pipeline using LangChain that answers medical questions using
+a publicly available clinical or biomedical dataset. The system should retrieve context-sensitive chunks and
+generate accurate, citation-aware responses.
+
+Dataset:
+https://www.kaggle.com/datasets/tboyle10/medicaltranscriptions
+
+Objective:
+To create a safe medical assistant capable of retrieving evidence-based information and producing grounded
+answers using LangChain retrievers and the Gemini API.
+Deliverables:
+• Preprocessed dataset with chunks and metadata.
+• FAISS/Chroma vector store creation script.
+• RAG pipeline (Retriever + Gemini LLM chain).
+• Streamlit/Gradio medical QA demo.
+• Evaluation on at least 30 medical queries.
+Task 2: Policy Compliance Checker RAG System
+Problem:
+Build a LangChain-based RAG system that evaluates whether a given set of company policies, security protocols, or
+HR manuals comply with predefined rules. The system should provide context-based evidence and suggestions for
+corrections.
+Dataset:
+https://www.atticusprojectai.org/cuad
+Objective:
+To develop a compliance-checking agent that uses retrieval to inspect documents and determine whether each rule
+is satisfied, providing evidence and remediation steps.
+Deliverables:
+• Rule definition file (minimum 15 rules).
+• PDF ingestion + vector store pipeline.
+• Custom compliance-checker tool connected to Gemini.
+• Agent workflow for multi-step compliance questioning.
+• Comparison table of compliant vs non-compliant sections.

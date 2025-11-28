@@ -1,0 +1,92 @@
+[
+    {
+        "id": "R001",
+        "category": "Data Security",
+        "rule": "All sensitive employee data must be encrypted at rest and in transit using AES-256 or equivalent standards.",
+        "severity": "High"
+    },
+    {
+        "id": "R002",
+        "category": "Access Control",
+        "rule": "Multi-Factor Authentication (MFA) is mandatory for all remote access to company networks.",
+        "severity": "High"
+    },
+    {
+        "id": "R003",
+        "category": "Password Policy",
+        "rule": "Passwords must be at least 12 characters long, containing uppercase, lowercase, numbers, and special characters, and changed every 90 days.",
+        "severity": "Medium"
+    },
+    {
+        "id": "R004",
+        "category": "Acceptable Use",
+        "rule": "Company devices must not be used for illegal activities, gambling, or accessing explicit content.",
+        "severity": "High"
+    },
+    {
+        "id": "R005",
+        "category": "Remote Work",
+        "rule": "Employees working remotely must use the company-provided VPN for all business-related internet traffic.",
+        "severity": "Medium"
+    },
+    {
+        "id": "R006",
+        "category": "Incident Response",
+        "rule": "All security incidents must be reported to the IT Security Team within 24 hours of discovery.",
+        "severity": "High"
+    },
+    {
+        "id": "R007",
+        "category": "Software Installation",
+        "rule": "Employees are prohibited from installing unauthorized software on company devices without IT approval.",
+        "severity": "Medium"
+    },
+    {
+        "id": "R008",
+        "category": "Data Retention",
+        "rule": "Customer data must be retained for a minimum of 5 years and then securely destroyed.",
+        "severity": "Medium"
+    },
+    {
+        "id": "R009",
+        "category": "Physical Security",
+        "rule": "ID badges must be worn and visible at all times while on company premises.",
+        "severity": "Low"
+    },
+    {
+        "id": "R010",
+        "category": "Social Media",
+        "rule": "Employees must not post confidential company information or trade secrets on social media platforms.",
+        "severity": "High"
+    },
+    {
+        "id": "R011",
+        "category": "Email Security",
+        "rule": "Automatic forwarding of company email to external personal email accounts is prohibited.",
+        "severity": "Medium"
+    },
+    {
+        "id": "R012",
+        "category": "Clean Desk",
+        "rule": "Sensitive documents and portable storage media must be locked away when the workspace is unattended.",
+        "severity": "Low"
+    },
+    {
+        "id": "R013",
+        "category": "Vendor Management",
+        "rule": "All third-party vendors with access to company data must sign a Non-Disclosure Agreement (NDA).",
+        "severity": "High"
+    },
+    {
+        "id": "R014",
+        "category": "Training",
+        "rule": "All employees must complete annual cybersecurity awareness training.",
+        "severity": "Medium"
+    },
+    {
+        "id": "R015",
+        "category": "Mobile Devices",
+        "rule": "Personal mobile devices used for work purposes must have a screen lock enabled and be enrolled in the MDM solution.",
+        "severity": "Medium"
+    }
+]
